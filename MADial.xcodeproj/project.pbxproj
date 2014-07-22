@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		276B48C8197CC3C700DD712C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 276B48C7197CC3C700DD712C /* main.m */; };
+		276B48CB197CC3C700DD712C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 276B48CA197CC3C700DD712C /* AppDelegate.m */; };
+		276B48CD197CC3C700DD712C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276B48CC197CC3C700DD712C /* Images.xcassets */; };
+		276B48D9197CC3C700DD712C /* MADialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 276B48D8197CC3C700DD712C /* MADialTests.m */; };
+		276B48E5197CC3D700DD712C /* MADial.m in Sources */ = {isa = PBXBuildFile; fileRef = 276B48E4197CC3D700DD712C /* MADial.m */; };
+		276B48E9197CC48200DD712C /* MADialDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 276B48E8197CC48200DD712C /* MADialDemoViewController.m */; };
+		276B48ED197CC69D00DD712C /* MATimerDial.m in Sources */ = {isa = PBXBuildFile; fileRef = 276B48EC197CC69D00DD712C /* MATimerDial.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		276B48D3197CC3C700DD712C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 276B48BA197CC3C700DD712C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 276B48C1197CC3C700DD712C;
+			remoteInfo = MADial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		276B48C2197CC3C700DD712C /* MADial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MADial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		276B48C6197CC3C700DD712C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276B48C7197CC3C700DD712C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		276B48C9197CC3C700DD712C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		276B48CA197CC3C700DD712C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		276B48CC197CC3C700DD712C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		276B48D2197CC3C700DD712C /* MADialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MADialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		276B48D7197CC3C700DD712C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276B48D8197CC3C700DD712C /* MADialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADialTests.m; sourceTree = "<group>"; };
+		276B48E3197CC3D700DD712C /* MADial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADial.h; sourceTree = "<group>"; };
+		276B48E4197CC3D700DD712C /* MADial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADial.m; sourceTree = "<group>"; };
+		276B48E7197CC48200DD712C /* MADialDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADialDemoViewController.h; sourceTree = "<group>"; };
+		276B48E8197CC48200DD712C /* MADialDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADialDemoViewController.m; sourceTree = "<group>"; };
+		276B48EB197CC69D00DD712C /* MATimerDial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MATimerDial.h; sourceTree = "<group>"; };
+		276B48EC197CC69D00DD712C /* MATimerDial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MATimerDial.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		276B48BF197CC3C700DD712C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276B48CF197CC3C700DD712C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		276B48B9197CC3C700DD712C = {
+			isa = PBXGroup;
+			children = (
+				276B48C4197CC3C700DD712C /* MADial */,
+				276B48D5197CC3C700DD712C /* MADialTests */,
+				276B48C3197CC3C700DD712C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		276B48C3197CC3C700DD712C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				276B48C2197CC3C700DD712C /* MADial.app */,
+				276B48D2197CC3C700DD712C /* MADialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		276B48C4197CC3C700DD712C /* MADial */ = {
+			isa = PBXGroup;
+			children = (
+				276B48E6197CC45A00DD712C /* MADialDemo */,
+				276B48E2197CC3CE00DD712C /* MADial */,
+				276B48EA197CC68E00DD712C /* MATimerDial */,
+				276B48CC197CC3C700DD712C /* Images.xcassets */,
+				276B48C5197CC3C700DD712C /* Supporting Files */,
+			);
+			path = MADial;
+			sourceTree = "<group>";
+		};
+		276B48C5197CC3C700DD712C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				276B48C6197CC3C700DD712C /* Info.plist */,
+				276B48C7197CC3C700DD712C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		276B48D5197CC3C700DD712C /* MADialTests */ = {
+			isa = PBXGroup;
+			children = (
+				276B48D8197CC3C700DD712C /* MADialTests.m */,
+				276B48D6197CC3C700DD712C /* Supporting Files */,
+			);
+			path = MADialTests;
+			sourceTree = "<group>";
+		};
+		276B48D6197CC3C700DD712C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				276B48D7197CC3C700DD712C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		276B48E2197CC3CE00DD712C /* MADial */ = {
+			isa = PBXGroup;
+			children = (
+				276B48E3197CC3D700DD712C /* MADial.h */,
+				276B48E4197CC3D700DD712C /* MADial.m */,
+			);
+			name = MADial;
+			sourceTree = "<group>";
+		};
+		276B48E6197CC45A00DD712C /* MADialDemo */ = {
+			isa = PBXGroup;
+			children = (
+				276B48C9197CC3C700DD712C /* AppDelegate.h */,
+				276B48CA197CC3C700DD712C /* AppDelegate.m */,
+				276B48E7197CC48200DD712C /* MADialDemoViewController.h */,
+				276B48E8197CC48200DD712C /* MADialDemoViewController.m */,
+			);
+			name = MADialDemo;
+			sourceTree = "<group>";
+		};
+		276B48EA197CC68E00DD712C /* MATimerDial */ = {
+			isa = PBXGroup;
+			children = (
+				276B48EB197CC69D00DD712C /* MATimerDial.h */,
+				276B48EC197CC69D00DD712C /* MATimerDial.m */,
+			);
+			name = MATimerDial;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		276B48C1197CC3C700DD712C /* MADial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276B48DC197CC3C700DD712C /* Build configuration list for PBXNativeTarget "MADial" */;
+			buildPhases = (
+				276B48BE197CC3C700DD712C /* Sources */,
+				276B48BF197CC3C700DD712C /* Frameworks */,
+				276B48C0197CC3C700DD712C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MADial;
+			productName = MADial;
+			productReference = 276B48C2197CC3C700DD712C /* MADial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		276B48D1197CC3C700DD712C /* MADialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276B48DF197CC3C700DD712C /* Build configuration list for PBXNativeTarget "MADialTests" */;
+			buildPhases = (
+				276B48CE197CC3C700DD712C /* Sources */,
+				276B48CF197CC3C700DD712C /* Frameworks */,
+				276B48D0197CC3C700DD712C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				276B48D4197CC3C700DD712C /* PBXTargetDependency */,
+			);
+			name = MADialTests;
+			productName = MADialTests;
+			productReference = 276B48D2197CC3C700DD712C /* MADialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		276B48BA197CC3C700DD712C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Mike Amaral";
+				TargetAttributes = {
+					276B48C1197CC3C700DD712C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					276B48D1197CC3C700DD712C = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 276B48C1197CC3C700DD712C;
+					};
+				};
+			};
+			buildConfigurationList = 276B48BD197CC3C700DD712C /* Build configuration list for PBXProject "MADial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 276B48B9197CC3C700DD712C;
+			productRefGroup = 276B48C3197CC3C700DD712C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				276B48C1197CC3C700DD712C /* MADial */,
+				276B48D1197CC3C700DD712C /* MADialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		276B48C0197CC3C700DD712C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276B48CD197CC3C700DD712C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276B48D0197CC3C700DD712C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		276B48BE197CC3C700DD712C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276B48ED197CC69D00DD712C /* MATimerDial.m in Sources */,
+				276B48E5197CC3D700DD712C /* MADial.m in Sources */,
+				276B48E9197CC48200DD712C /* MADialDemoViewController.m in Sources */,
+				276B48CB197CC3C700DD712C /* AppDelegate.m in Sources */,
+				276B48C8197CC3C700DD712C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276B48CE197CC3C700DD712C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276B48D9197CC3C700DD712C /* MADialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		276B48D4197CC3C700DD712C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 276B48C1197CC3C700DD712C /* MADial */;
+			targetProxy = 276B48D3197CC3C700DD712C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		276B48DA197CC3C700DD712C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		276B48DB197CC3C700DD712C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		276B48DD197CC3C700DD712C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MADial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		276B48DE197CC3C700DD712C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MADial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		276B48E0197CC3C700DD712C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MADial.app/MADial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MADialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		276B48E1197CC3C700DD712C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MADial.app/MADial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MADialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		276B48BD197CC3C700DD712C /* Build configuration list for PBXProject "MADial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276B48DA197CC3C700DD712C /* Debug */,
+				276B48DB197CC3C700DD712C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		276B48DC197CC3C700DD712C /* Build configuration list for PBXNativeTarget "MADial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276B48DD197CC3C700DD712C /* Debug */,
+				276B48DE197CC3C700DD712C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		276B48DF197CC3C700DD712C /* Build configuration list for PBXNativeTarget "MADialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276B48E0197CC3C700DD712C /* Debug */,
+				276B48E1197CC3C700DD712C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 276B48BA197CC3C700DD712C /* Project object */;
+}
