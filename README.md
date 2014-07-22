@@ -26,4 +26,4 @@ MADial *demoDial = [MADial dialWithInitialValue:15 min:0 max:100 unit:@"\u00B0C"
 License & Attribution
 =====
 
-This project is made available under the MIT license, as was the original project that was forked from Dominik Hauser's DDHTimerControl (https://github.com/dasdom/DDHTimerControl.)
+This project is made available under the MIT license, as was the original project that was forked from Dominik Hauser's DDHTimerControl (https://github.com/dasdom/DDHTimerControl)
